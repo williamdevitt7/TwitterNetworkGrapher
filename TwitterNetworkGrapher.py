@@ -32,10 +32,10 @@ from sys import maxsize as maxint
 
 # Auth / Login function (my credentials)
 def oauth_login():
-    CONSUMER_KEY = 'TZZ7nSTDikWYNhWKJo9NApmhC'
-    CONSUMER_SECRET = 'kHZg6oiWt9u0NTRou02cGfrw0ZVNzTirhh8d8vkjRA3lhvNxvQ'
-    OAUTH_TOKEN = '1372695165996040195-w2xR82xE8zdmmWXO6VxaJuB5tteVnQ'
-    OAUTH_TOKEN_SECRET = '5F4Lu4HWRb1M1hY8g9qQ8NTptlkGrNpHW6xTkqbYfl9xY'
+    CONSUMER_KEY = ''
+    CONSUMER_SECRET = ''
+    OAUTH_TOKEN = ''
+    OAUTH_TOKEN_SECRET = ''
 
     auth = twitter.oauth.OAuth(OAUTH_TOKEN, OAUTH_TOKEN_SECRET,
                                CONSUMER_KEY, CONSUMER_SECRET)
